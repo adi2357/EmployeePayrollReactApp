@@ -96,6 +96,43 @@
       "salary": "30000",
       "startDate": "2020-11-30T18:30:00.000Z",
       "note": "Axios post check"
+    },
+    {
+      "id": 8,
+      "name": "Punit Machi",
+      "profilePicture": "../../assets/profile-images/Ellipse -2.png",
+      "gender": "male",
+      "departments": [
+        "Engineer"
+      ],
+      "salary": 40000,
+      "startDate": "2020-12-11T18:30:00.000Z",
+      "note": "Check Messages"
+    },
+    {
+      "id": 9,
+      "name": "Ana Morri",
+      "profilePicture": "../../assets/profile-images/Ellipse -4.png",
+      "gender": "female",
+      "departments": [
+        "Finance"
+      ],
+      "salary": "44200",
+      "startDate": "2020-11-30T18:30:00.000Z",
+      "note": "new check messages"
+    },
+    {
+      "id": 10,
+      "name": "Aman Dhyan",
+      "profilePicture": "../../assets/profile-images/Ellipse -5.png",
+      "gender": "male",
+      "departments": [
+        "Sales",
+        "Others"
+      ],
+      "salary": "45000",
+      "startDate": "2020-11-30T18:30:00.000Z",
+      "note": ""
     }
   ]
 }

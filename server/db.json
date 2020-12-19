@@ -1,13 +1,13 @@
 {
   "employee-payroll": [
     {
-      "_name": "Alina",
-      "_gender": "female",
-      "_profilePicture": "../assets/profile-images/Ellipse -7.png",
-      "_salary": "500000",
-      "_startDate": "2015-12-31T18:30:00.000Z",
-      "_note": "Fifth Employee",
-      "_departments": [
+      "name": "Alina",
+      "gender": "female",
+      "profilePicture": "../assets/profile-images/Ellipse -7.png",
+      "salary": "500000",
+      "startDate": "2015-12-31T18:30:00.000Z",
+      "note": "Fifth Employee",
+      "departments": [
         "HR",
         "Sales",
         "Finance",
@@ -17,25 +17,25 @@
       "id": 1
     },
     {
-      "_name": "Max Talor",
-      "_gender": "male",
-      "_profilePicture": "../assets/profile-images/Ellipse -5.png",
-      "_salary": "300000",
-      "_startDate": "2019-12-31T18:30:00.000Z",
-      "_note": "Third Employee",
-      "_departments": [
+      "name": "Max Talor",
+      "gender": "male",
+      "profilePicture": "../assets/profile-images/Ellipse -5.png",
+      "salary": "300000",
+      "startDate": "2019-12-31T18:30:00.000Z",
+      "note": "Third Employee",
+      "departments": [
         "HR"
       ],
       "id": 2
     },
     {
-      "_name": "Ana",
-      "_gender": "female",
-      "_profilePicture": "../assets/profile-images/Ellipse -4.png",
-      "_salary": "400000",
-      "_startDate": "2018-05-31T18:30:00.000Z",
-      "_note": "Second Employee",
-      "_departments": [
+      "name": "Ana",
+      "gender": "female",
+      "profilePicture": "../assets/profile-images/Ellipse -4.png",
+      "salary": "400000",
+      "startDate": "2018-05-31T18:30:00.000Z",
+      "note": "Second Employee",
+      "departments": [
         "Sales",
         "Finance"
       ],
@@ -43,13 +43,13 @@
     },
     {
       "id": 4,
-      "_name": "Aditya Verma",
-      "_gender": "male",
-      "_profilePicture": "../assets/profile-images/Ellipse -5.png",
-      "_salary": "500000",
-      "_startDate": "2020-11-04T18:30:00.000Z",
-      "_note": "First Employee",
-      "_departments": [
+      "name": "Aditya Verma",
+      "gender": "male",
+      "profilePicture": "../assets/profile-images/Ellipse -5.png",
+      "salary": "500000",
+      "startDate": "2020-11-04T18:30:00.000Z",
+      "note": "First Employee",
+      "departments": [
         "HR",
         "Sales",
         "Engineer",
@@ -57,17 +57,31 @@
       ]
     },
     {
-      "_name": "Akash Malya",
-      "_gender": "male",
-      "_profilePicture": "../assets/profile-images/Ellipse -3.png",
-      "_salary": "350000",
-      "_startDate": "2020-11-14T18:30:00.000Z",
-      "_note": "New employee",
-      "_departments": [
+      "name": "Akash Malya",
+      "gender": "male",
+      "profilePicture": "../assets/profile-images/Ellipse -3.png",
+      "salary": "350000",
+      "startDate": "2020-11-14T18:30:00.000Z",
+      "note": "New employee",
+      "departments": [
         "Sales",
         "Finance"
       ],
       "id": 5
+    },
+    {
+      "id": 6,
+      "name": "Aditya Verma",
+      "profilePicture": "../../assets/profile-images/Ellipse -3.png",
+      "gender": "male",
+      "departments": [
+        "HR",
+        "Sales",
+        "Finance"
+      ],
+      "salary": "50000",
+      "startDate": "2020-11-30T18:30:00.000Z",
+      "note": "First Save check"
     }
   ]
 }

@@ -82,6 +82,20 @@
       "salary": "50000",
       "startDate": "2020-11-30T18:30:00.000Z",
       "note": "First Save check"
+    },
+    {
+      "id": 7,
+      "name": "Akash Malya",
+      "profilePicture": "../../assets/profile-images/Ellipse -5.png",
+      "gender": "male",
+      "departments": [
+        "Sales",
+        "Finance",
+        "Engineer"
+      ],
+      "salary": "30000",
+      "startDate": "2020-11-30T18:30:00.000Z",
+      "note": "Axios post check"
     }
   ]
 }

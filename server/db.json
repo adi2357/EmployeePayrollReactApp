@@ -3,7 +3,7 @@
     {
       "name": "Alina",
       "gender": "female",
-      "profilePicture": "../assets/profile-images/Ellipse -7.png",
+      "profilePicture": "../../assets/profile-images/Ellipse -7.png",
       "salary": "500000",
       "startDate": "2015-12-31T18:30:00.000Z",
       "note": "Fifth Employee",
@@ -19,7 +19,7 @@
     {
       "name": "Max Talor",
       "gender": "male",
-      "profilePicture": "../assets/profile-images/Ellipse -5.png",
+      "profilePicture": "../../assets/profile-images/Ellipse -5.png",
       "salary": "300000",
       "startDate": "2019-12-31T18:30:00.000Z",
       "note": "Third Employee",
@@ -31,7 +31,7 @@
     {
       "name": "Ana",
       "gender": "female",
-      "profilePicture": "../assets/profile-images/Ellipse -4.png",
+      "profilePicture": "../../assets/profile-images/Ellipse -4.png",
       "salary": "400000",
       "startDate": "2018-05-31T18:30:00.000Z",
       "note": "Second Employee",
@@ -45,7 +45,7 @@
       "id": 4,
       "name": "Aditya Verma",
       "gender": "male",
-      "profilePicture": "../assets/profile-images/Ellipse -5.png",
+      "profilePicture": "../../assets/profile-images/Ellipse -5.png",
       "salary": "500000",
       "startDate": "2020-11-04T18:30:00.000Z",
       "note": "First Employee",
@@ -59,7 +59,7 @@
     {
       "name": "Akash Malya",
       "gender": "male",
-      "profilePicture": "../assets/profile-images/Ellipse -3.png",
+      "profilePicture": "../../assets/profile-images/Ellipse -3.png",
       "salary": "350000",
       "startDate": "2020-11-14T18:30:00.000Z",
       "note": "New employee",
@@ -133,6 +133,21 @@
       "salary": "45000",
       "startDate": "2020-11-30T18:30:00.000Z",
       "note": ""
+    },
+    {
+      "id": 11,
+      "name": "Kristen Croft",
+      "profilePicture": "../../assets/profile-images/Ellipse -1.png",
+      "gender": "female",
+      "departments": [
+        "Engineer",
+        "Others",
+        "Finance",
+        "Sales"
+      ],
+      "salary": "50000",
+      "startDate": "2020-12-17T18:30:00.000Z",
+      "note": "Check submition to home page"
     }
   ]
 }

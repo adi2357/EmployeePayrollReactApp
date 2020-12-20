@@ -238,6 +238,8 @@ class PayrollForm extends React.Component {
       new EmployeeService().addEmployee(employeeObject)
       .then(responseText => {
         alert("Employee Added Successfully!!!\n" + JSON.stringify(responseText.data));
+        this.reset();
+        this.props.history.push("/home");
       }).catch(error => {
         console.log("Error while adding Employee!!!\n" + JSON.stringify(error));
       })
@@ -324,24 +326,24 @@ class PayrollForm extends React.Component {
               <label className="label text" htmlFor="department">Department</label>
               <div>            
                 <label>
-                    <input class="checkbox" type="checkbox" id="hr" name="department" value="HR" onChange={this.departmentChangeHandler} />
-                    <label class="text" for="hr">HR</label>
+                    <input className="checkbox" type="checkbox" id="hr" name="department" value="HR" onChange={this.departmentChangeHandler} />
+                    <label className="text" htmlFor="hr">HR</label>
                 </label>
                 <label>
-                    <input class="checkbox" type="checkbox" id="sales" name="department" value="Sales" onChange={this.departmentChangeHandler} />
-                    <label class="text" for="sales">Sales</label>
+                    <input className="checkbox" type="checkbox" id="sales" name="department" value="Sales" onChange={this.departmentChangeHandler} />
+                    <label className="text" htmlFor="sales">Sales</label>
                 </label>
                 <label>
-                    <input class="checkbox" type="checkbox" id="finance" name="department" value="Finance" onChange={this.departmentChangeHandler} />
-                    <label class="text" for="finance">Finance</label>
+                    <input className="checkbox" type="checkbox" id="finance" name="department" value="Finance" onChange={this.departmentChangeHandler} />
+                    <label className="text" htmlFor="finance">Finance</label>
                 </label>
                 <label>
-                    <input class="checkbox" type="checkbox" id="engineer" name="department" value="Engineer" onChange={this.departmentChangeHandler} />
-                    <label class="text" for="engineer">Engineer</label>
+                    <input className="checkbox" type="checkbox" id="engineer" name="department" value="Engineer" onChange={this.departmentChangeHandler} />
+                    <label className="text" htmlFor="engineer">Engineer</label>
                 </label>
                 <label>
-                    <input class="checkbox" type="checkbox" id="others" name="department" value="Others" onChange={this.departmentChangeHandler} />
-                    <label class="text" for="others">Others</label>
+                    <input className="checkbox" type="checkbox" id="others" name="department" value="Others" onChange={this.departmentChangeHandler} />
+                    <label className="text" htmlFor="others">Others</label>
                 </label>
               </div>
               <valid-message className="valid-department" htmlFor="department">{this.state.valid.department}</valid-message>

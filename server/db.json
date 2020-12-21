@@ -14,7 +14,7 @@
       ],
       "salary": "40000",
       "startDate": "2020-12-06T18:30:00.000Z",
-      "note": "Fifth Employee"
+      "notes": "Fifth Employee"
     },
     {
       "id": 2,
@@ -28,7 +28,7 @@
       ],
       "salary": "30000",
       "startDate": "2020-12-02T18:30:00.000Z",
-      "note": "Third Employee updated"
+      "notes": "Third Employee updated"
     },
     {
       "id": 3,
@@ -41,7 +41,7 @@
       ],
       "salary": "42000",
       "startDate": "2020-12-20T18:30:00.000Z",
-      "note": "Second Employee : updated start date and salary and profile picture"
+      "notes": "Second Employee : updated start date and salary and profile picture"
     },
     {
       "id": 4,
@@ -57,7 +57,7 @@
       ],
       "salary": "50000",
       "startDate": "2020-11-21T18:30:00.000Z",
-      "note": "First Employee : updated incorrect salary  and added finance department"
+      "notes": "First Employee : updated incorrect salary  and added finance department"
     },
     {
       "id": 7,
@@ -71,7 +71,7 @@
       ],
       "salary": "30000",
       "startDate": "2020-11-30T18:30:00.000Z",
-      "note": "Axios post check"
+      "notes": "Axios post check"
     },
     {
       "id": 8,
@@ -83,7 +83,7 @@
       ],
       "salary": 40000,
       "startDate": "2020-12-11T18:30:00.000Z",
-      "note": "Check Messages"
+      "notes": "Check Messages"
     },
     {
       "id": 9,
@@ -95,7 +95,7 @@
       ],
       "salary": "44200",
       "startDate": "2020-11-30T18:30:00.000Z",
-      "note": "new check messages"
+      "notes": "new check messages"
     },
     {
       "id": 10,
@@ -108,7 +108,7 @@
       ],
       "salary": "45000",
       "startDate": "2020-11-30T18:30:00.000Z",
-      "note": ""
+      "notes": ""
     },
     {
       "id": 11,
@@ -123,7 +123,7 @@
       ],
       "salary": "50000",
       "startDate": "2020-12-17T18:30:00.000Z",
-      "note": "Check submition to home page"
+      "notes": "Check submition to home page"
     }
   ]
 }

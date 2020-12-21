@@ -1,12 +1,10 @@
 {
   "employee-payroll": [
     {
+      "id": 1,
       "name": "Alina",
-      "gender": "female",
       "profilePicture": "../../assets/profile-images/Ellipse -7.png",
-      "salary": "500000",
-      "startDate": "2015-12-31T18:30:00.000Z",
-      "note": "Fifth Employee",
+      "gender": "female",
       "departments": [
         "HR",
         "Sales",
@@ -14,60 +12,65 @@
         "Engineer",
         "Others"
       ],
-      "id": 1
+      "salary": "40000",
+      "startDate": "2020-12-06T18:30:00.000Z",
+      "note": "Fifth Employee"
     },
     {
+      "id": 2,
       "name": "Max Talor",
+      "profilePicture": "../../assets/profile-images/Ellipse -3.png",
       "gender": "male",
-      "profilePicture": "../../assets/profile-images/Ellipse -5.png",
-      "salary": "300000",
-      "startDate": "2019-12-31T18:30:00.000Z",
-      "note": "Third Employee",
       "departments": [
-        "HR"
+        "HR",
+        "Sales",
+        "Finance"
       ],
-      "id": 2
+      "salary": "30000",
+      "startDate": "2020-12-02T18:30:00.000Z",
+      "note": "Third Employee updated"
     },
     {
+      "id": 3,
       "name": "Ana",
+      "profilePicture": "../../assets/profile-images/Ellipse -7.png",
       "gender": "female",
-      "profilePicture": "../../assets/profile-images/Ellipse -4.png",
-      "salary": "400000",
-      "startDate": "2018-05-31T18:30:00.000Z",
-      "note": "Second Employee",
       "departments": [
         "Sales",
         "Finance"
       ],
-      "id": 3
+      "salary": "42000",
+      "startDate": "2020-12-20T18:30:00.000Z",
+      "note": "Second Employee : updated start date and salary and profile picture"
     },
     {
       "id": 4,
       "name": "Aditya Verma",
-      "gender": "male",
       "profilePicture": "../../assets/profile-images/Ellipse -5.png",
-      "salary": "500000",
-      "startDate": "2020-11-04T18:30:00.000Z",
-      "note": "First Employee",
+      "gender": "male",
       "departments": [
         "HR",
         "Sales",
         "Engineer",
-        "Others"
-      ]
+        "Others",
+        "Finance"
+      ],
+      "salary": "50000",
+      "startDate": "2020-11-21T18:30:00.000Z",
+      "note": "First Employee : updated incorrect salary  and added finance department"
     },
     {
+      "id": 5,
       "name": "Akash Malya",
-      "gender": "male",
       "profilePicture": "../../assets/profile-images/Ellipse -3.png",
-      "salary": "350000",
-      "startDate": "2020-11-14T18:30:00.000Z",
-      "note": "New employee",
+      "gender": "male",
       "departments": [
         "Sales",
         "Finance"
       ],
-      "id": 5
+      "salary": "35000",
+      "startDate": "2020-11-24T18:30:00.000Z",
+      "note": "New employee"
     },
     {
       "id": 6,
@@ -148,6 +151,36 @@
       "salary": "50000",
       "startDate": "2020-12-17T18:30:00.000Z",
       "note": "Check submition to home page"
+    },
+    {
+      "id": 12,
+      "name": "Aditya Verma",
+      "profilePicture": "../../assets/profile-images/Ellipse -3.png",
+      "gender": "male",
+      "departments": [
+        "HR",
+        "Sales",
+        "Finance"
+      ],
+      "salary": "43200",
+      "startDate": "2020-12-19T18:30:00.000Z",
+      "note": "sfdsdf"
+    },
+    {
+      "id": 13,
+      "name": "New Employee",
+      "profilePicture": "../../assets/profile-images/Ellipse -3.png",
+      "gender": "male",
+      "departments": [
+        "HR",
+        "Sales",
+        "Finance",
+        "Engineer",
+        "Others"
+      ],
+      "salary": 40000,
+      "startDate": "2020-12-10T18:30:00.000Z",
+      "note": "New Employee Addition check"
     }
   ]
 }

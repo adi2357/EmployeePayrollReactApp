@@ -65,3 +65,10 @@ td img {
   margin-bottom: 8px;
   margin-left: 5px;
 }
+
+@media screen and (max-width: 767px) {
+  .table {
+    overflow-x: scroll;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }  
+}

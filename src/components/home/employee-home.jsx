@@ -66,14 +66,16 @@ class HomePage extends React.Component {
                         {this.state.employeeArray.length}
                     </div>
                 </div>
-                <div className="search-box" onClick={this.openSearch}>
-                  <input className={"search-input " + (this.state.searchExpand && "input-expand")}
-                    onChange={this.search} type="text" placeholder="" />
-                  <img className="search-icon" src={searchIcon} alt="Search Icon" />
+                <div className="search-add">
+                  <div className="search-box" onClick={this.openSearch}>
+                    <input className={"search-input " + (this.state.searchExpand && "input-expand")}
+                      onChange={this.search} type="text" placeholder="" />
+                    <img className="search-icon" src={searchIcon} alt="Search Icon" />
+                  </div>
+                  <Link to="payroll-form" className="add-button">
+                    <img src={addIcon} alt="Add Button" /> Add User
+                  </Link>
                 </div>
-                <Link to="payroll-form" className="add-button">
-                  <img src={addIcon} alt="Add Button" /> Add User
-                </Link>
             </div>
             <div className="table-main">
                 <Display employeeArray = {this.state.employeeArray} />

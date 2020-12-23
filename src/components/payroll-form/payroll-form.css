@@ -83,6 +83,7 @@
   margin-bottom: 10px;
   align-items: center;
   border: 0px solid green;
+  flex-flow: wrap;
 }
 
 .label {
@@ -108,6 +109,7 @@ label {
   border: 1px solid #ccc;
   border-radius: 4px;
   resize: vertical;
+  max-width: 680px;
 }
 
 .profile-radio-content {
@@ -218,6 +220,8 @@ valid-message {
 @media only screen and (max-width: 600px) {
   .form {
       margin-top: 10px;
+      padding: 44px 15px;
+
   }
   .row-content {
       flex-direction: column;
